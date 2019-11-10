@@ -2,6 +2,7 @@
 =================================== 
 - Reset
 - grid
+- Typography
 */
 
 
@@ -14,6 +15,7 @@ ul,
 ol,
 li,
 figure,
+p,
 h1,
 h2,
 h3,
@@ -226,5 +228,182 @@ th {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+
+
+/* [+] Typography 
+============================= */
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+h1,
+.h1 {
+    font-size: 3.6rem;
+}
+
+h2,
+.h2 {
+    font-size: 2.4rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.8rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.6rem;
+}
+
+h5,
+.h5 {
+    font-size: 1.4rem;
+}
+
+h6,
+.h6 {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:769px) {
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        margin-bottom: 1.5rem;
+    }
+    h1,
+    .h1 {
+        font-size: 4.2rem;
+    }
+    h2,
+    .h2 {
+        font-size: 3.6rem;
+    }
+    h3,
+    .h3 {
+        font-size: 2.4rem;
+    }
+    h4,
+    .h4 {
+        font-size: 1.8rem;
+    }
+    h5,
+    .h5 {
+        font-size: 1.6rem;
+    }
+    h6,
+    .h6 {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* Fix Font sizes across all breakpoint */
+
+.font-42 {
+    font-size: 4.2rem;
+}
+
+.font-36 {
+    font-size: 3.6rem;
+}
+
+.font-24 {
+    font-size: 2.4rem;
+}
+
+.font-18 {
+    font-size: 1.8rem;
+}
+
+.font-12 {
+    font-size: 1.2rem;
+}
+
+
+/* has-font : mobile breakpoint specific font size has been changed automatically */
+
+.has-font-42 {
+    font-size: 3.6rem;
+}
+
+.has-font-36 {
+    font-size: 2.4rem;
+}
+
+.has-font-24 {
+    font-size: 1.8rem;
+}
+
+.has-font-18 {
+    font-size: 1.6rem;
+}
+
+.has-font-12 {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:769px) {
+    .font-42 {
+        font-size: 4.2rem;
+    }
+    .font-36 {
+        font-size: 3.6rem;
+    }
+    .font-24 {
+        font-size: 2.4rem;
+    }
+    .font-18 {
+        font-size: 1.8rem;
+    }
+    .font-12 {
+        font-size: 1.2rem;
+    }
+    /* has-font : mobile breakpoint specific font size has been changed automatically */
+    .has-font-42 {
+        font-size: 4.2rem;
+    }
+    .has-font-36 {
+        font-size: 3.6rem;
+    }
+    .has-font-24 {
+        font-size: 2.4rem;
+    }
+    .has-font-18 {
+        font-size: 1.8rem;
+    }
+    .has-font-12 {
+        font-size: 1.2rem;
     }
 }
