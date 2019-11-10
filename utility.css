@@ -1,1 +1,86 @@
-body { background:#000; color:#fff; }
+/* [+] Content 
+=================================== 
+- Reset
+*/
+
+
+/* [+] Reset 
+============================= */
+
+html,
+body,
+ul,
+ol,
+li,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+section,
+article aside,
+figure,
+figcaption,
+footer {
+    display: block;
+    /* HTML5 Elements to render correctly in IE10 and old browsers */
+}
+
+html {
+    font-size: 62.5%;
+    /* this percentage will convert all rem based unit to 10px sizing i.e. : 1.2rem = 12px*/
+    box-sizing: border-box;
+    /* allows padding and border to element without affecting actual width */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6em;
+    line-height: 1.5;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    /* -webkit-text.. prevent font size adjustment once orientation changes */
+    background: #fff;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
