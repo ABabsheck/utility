@@ -279,6 +279,12 @@ th {
     color: #0279bb;
 }
 
+.media-shadow {
+    border: 2px solid #fff;
+    -webkit-box-shadow: 2px 10px 11px #cac5c5;
+    box-shadow: 2px 10px 11px #cac5c5;
+}
+
 
 /* [+] border there */
 
