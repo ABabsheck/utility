@@ -3,6 +3,7 @@
 - Reset
 - grid
 - Typography
+- Spacing
 */
 
 
@@ -405,5 +406,109 @@ h6,
     }
     .has-font-12 {
         font-size: 1.2rem;
+    }
+}
+
+
+/* [+] Spacing 
+============================= */
+
+
+/* [+] padding */
+
+.pad-xl {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pad-lg {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.pad-md {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pad-sm {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pad-xs {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* [+] margin */
+
+.margin-xl {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin-lg {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.margin-md {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.margin-sm {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.margin-xs {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width:769px) {
+    .pad-xl {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .pad-lg {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .pad-md {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pad-sm {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pad-xs {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* [+] margin */
+    .margin-xl {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .margin-lg {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .margin-md {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .margin-sm {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .margin-xs {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
